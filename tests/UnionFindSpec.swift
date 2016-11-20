@@ -44,5 +44,11 @@ class UnionFindSpec: QuickSpec {
             
             itBehavesLike("Union Find") { [SutKey: sut] }
         }
+        
+        describe("Quick Union with weighted trees") {
+            let sut = QuickUnionWeightedUF(capacity: 10)
+            
+            itBehavesLike("Union Find") { [SutKey: sut] }
+        }
     }
 }
