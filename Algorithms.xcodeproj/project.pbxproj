@@ -16,6 +16,7 @@
 		6B4FE9B71DE0B7F80029706A /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B4FE9A11DE0B54D0029706A /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B4FE9B81DE0B7FC0029706A /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B4FE9A21DE0B54D0029706A /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B663DBA1DE24BA0002739D4 /* UnionFindPreformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B663DB91DE24BA0002739D4 /* UnionFindPreformanceTests.swift */; };
+		6B9F4BDE1DF21B9C00BFDC75 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9F4BDD1DF21B9C00BFDC75 /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		6B4FE9AD1DE0B6200029706A /* UnionFindSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFindSpec.swift; sourceTree = "<group>"; };
 		6B4FE9AF1DE0B6200029706A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B663DB91DE24BA0002739D4 /* UnionFindPreformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFindPreformanceTests.swift; sourceTree = "<group>"; };
+		6B9F4BDD1DF21B9C00BFDC75 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				6B4FE99E1DDFB2270029706A /* UnionFind.swift */,
+				6B9F4BDD1DF21B9C00BFDC75 /* BinarySearch.swift */,
 			);
 			path = Week_1;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				6B4FE99F1DDFB2270029706A /* UnionFind.swift in Sources */,
 				6B4FE9961DDE53980029706A /* main.swift in Sources */,
+				6B9F4BDE1DF21B9C00BFDC75 /* BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
